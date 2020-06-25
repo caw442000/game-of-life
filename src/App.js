@@ -298,7 +298,7 @@ function App() {
               style={{
                 width: 20,
                 height: 20,
-                backgroundColor: board[i][j] ? "black" : undefined,
+                backgroundColor: board[i][j] ? "black" : "red",
                 border: "solid 1px black",
               }}
             />
